@@ -1,0 +1,1 @@
+.header-menu > ul > li > span:after { background-color: #000;
