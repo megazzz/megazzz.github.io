@@ -28,8 +28,8 @@
     
     <script src="https://walkerfurniture.com/bundles/scripts/cpqpvywwsdy6f8v2u_gyhh7h-juqb6aieyde16kdhes1?v=fpciV_W6OP_Amgci_F2H8OjjHNPy0MW7Mo-_llUcT-g1"></script>
 
-    
-    
+     <link href="/css/search.css" rel="stylesheet"/>
+     <link href="/css/search.js" rel="stylesheet"/>
     
     
     
@@ -95,43 +95,9 @@
 <img alt="Mega Furniture" title="Mega Furniture" src="/images/0005058.jpeg" />    </a>
 </div>                            
 <div class="search-box store-search-box">
-                    <form action="https://megazzz.github.io/en/search" id="large-search-box-form" method="get">    <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" placeholder="Search" />
-    <input type="submit" class="button-1 search-box-button" value="Search" />
-        <script type="text/javascript">
-            $("#small-search-box-form").submit(function(event) {
-                if ($("#small-searchterms").val() == "") {
-                    alert('Please enter some search keyword');
-                    $("#small-searchterms").focus();
-                    event.preventDefault();
-                }
-            });
-        </script>
-        
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    $('#small-searchterms').autocomplete({
-                            delay: 500,
-                            minLength: 3,
-                            source: '/en/catalog/searchtermautocomplete',
-                            appendTo: '.search-box',
-                            select: function(event, ui) {
-                                $("#small-searchterms").val(ui.item.label);
-                                setLocation(ui.item.producturl);
-                                return false;
-                            }
-                        })
-                        .data("ui-autocomplete")._renderItem = function(ul, item) {
-                            var t = item.label;
-                            //html encode
-                            t = htmlEncode(t);
-                            return $("<li></li>")
-                                .data("item.autocomplete", item)
-                                .append("<a><span>" + t + "</span></a>")
-                                .appendTo(ul);
-                        };
-                });
-            </script>
-        
+                    <form id="content">
+  <input type="text" name="input" class="input">
+  <button type="reset" class="search"></button>
 </form>
                 </div>
             <div class="header-options">
