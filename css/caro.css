@@ -14,13 +14,13 @@ label {
 	color: #fff;
 	transition: transform 400ms ease-out;
 	display: inline-block;
-  min-height: 100%;
-	width: 100vw;
-	height: 100vh;
+  min-height: 50%;
+	width: 50vw;
+	height: 50vh;
 	position: relative;
 	z-index: 1;
 	text-align: center;
-	line-height: 100vh;
+	line-height: 50vh;
 }
 
 form {
