@@ -7340,7 +7340,7 @@ td.footable-last-column {
 
         .header-2 .header-menu > ul > li > a:after,
         .header-2 .header-menu > ul > li > span:after {
-            background-color: #fff;
+            background-color: #000;
         }
 
     .header-2 .header-menu > ul > li > .sublist-wrap,
@@ -10869,7 +10869,7 @@ a.nivo-nextNav {
 .ajaxFilters .k-window-titlebar,
 .ropc .complete-button button,
 .header-menu > ul > li > span:after {
-  background-color: #01468e;
+  background-color: #000;
 }
 /* set same border color as bg */
 
