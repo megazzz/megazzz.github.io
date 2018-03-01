@@ -81,9 +81,11 @@ label {
 	font-size: 3rem;
 }
 
-label[for="diamonds"],
+label[for="diamonds"] {
+	<img class="carousel-image" src="megazzz.github.io/living.png" alt="">
+}
 label[for="hearts"] {
-	background: #cc0000;
+	<img class="carousel-image" src="megazzz.github.io/bedroom.png" alt="">
 }
 
 label:before,
