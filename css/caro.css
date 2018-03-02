@@ -6,7 +6,7 @@ html, body {
 
 .untitled {
   position: absolute;
-  height: 60%;
+  height: 100%;
   width: 100%;
   -webkit-animation: rotateHue infinite 20s linear;
           animation: rotateHue infinite 20s linear;
