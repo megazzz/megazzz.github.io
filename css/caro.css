@@ -1,12 +1,12 @@
 html, body {
   width: 100vw;
-  height: 100vh;
+  height: 59vh;
   overflow: hidden;
 }
 
 .untitled {
   position: absolute;
-  height: 100%;
+  height: 59%;
   width: 100%;
   -webkit-animation: rotateHue infinite 20s linear;
           animation: rotateHue infinite 20s linear;
@@ -91,8 +91,8 @@
 }
 .untitled__shutters {
   position: absolute;
-  height: 150vmax;
-  width: 150vmax;
+  height: 62max;
+  width: 62vmax;
   left: calc(50% - 75vmax);
   top: calc(50% - 75vmax);
   pointer-events: none;
