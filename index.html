@@ -17,7 +17,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <!-- Custom styles for this template -->
     
-    
+    <link rel="stylesheet" href="css/style.css">
 
 
 
@@ -27,11 +27,8 @@
     <link href="/css/bhxa3e_kxcclyh8_zn7egdnhyokugpcomv1bkbyuzvq1.css" rel="stylesheet"/>
     
     <script src="https://walkerfurniture.com/bundles/scripts/cpqpvywwsdy6f8v2u_gyhh7h-juqb6aieyde16kdhes1?v=fpciV_W6OP_Amgci_F2H8OjjHNPy0MW7Mo-_llUcT-g1"></script>
-
     
-    
-    
-    
+    <link href="/css/caro.css" rel="stylesheet"/>
     
     
 <link rel="shortcut icon" href="/images/favicon.ico" />
@@ -93,46 +90,7 @@
 
 
 <img alt="Mega Furniture" title="Mega Furniture" src="/images/0005058.jpeg" />    </a>
-</div>                            <div class="search-box store-search-box">
-                    <form action="https://megazzz.github.io/en/search" id="small-search-box-form" method="get">    <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" placeholder="Search" />
-    <input type="submit" class="button-1 search-box-button" value="Search" />
-        <script type="text/javascript">
-            $("#small-search-box-form").submit(function(event) {
-                if ($("#small-searchterms").val() == "") {
-                    alert('Please enter some search keyword');
-                    $("#small-searchterms").focus();
-                    event.preventDefault();
-                }
-            });
-        </script>
-        
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    $('#small-searchterms').autocomplete({
-                            delay: 500,
-                            minLength: 3,
-                            source: '/en/catalog/searchtermautocomplete',
-                            appendTo: '.search-box',
-                            select: function(event, ui) {
-                                $("#small-searchterms").val(ui.item.label);
-                                setLocation(ui.item.producturl);
-                                return false;
-                            }
-                        })
-                        .data("ui-autocomplete")._renderItem = function(ul, item) {
-                            var t = item.label;
-                            //html encode
-                            t = htmlEncode(t);
-                            return $("<li></li>")
-                                .data("item.autocomplete", item)
-                                .append("<a><span>" + t + "</span></a>")
-                                .appendTo(ul);
-                        };
-                });
-            </script>
-        
-</form>
-                </div>
+</div>                            
             <div class="header-options">
                 <div class="header-links-wrapper">
                     <div class="header-links">
@@ -345,7 +303,7 @@
 								</div>
 							</div>
 						</li>
-						<!-- <li>
+						 <li>
 							<a class="mainlink" href="/entertainment">Entertainment</a>
 							<div class="sub subfurniture four">
 								<div class="sublinkscolumn">
@@ -366,7 +324,7 @@
 									</div>
 								</div>
 							</div>
-						</li> -->
+						</li> 
 						<li>
 							<a class="mainlink" href="/home-office">Home Office</a>
 							<div class="sub subfurniture four">
@@ -904,6 +862,7 @@
         
     </ul>
             </div>
+			
             <div class="header-actions">
                     <a href="/wishlist" class="ico-wishlist">
                         <span class="wishlist-qty"></span>
@@ -953,24 +912,52 @@ You have no items in your shopping cart.        </div>
     </div>
 
 
-   
-	<form>
+<div class="untitled">
+	<div class="untitled__slides">
+		<div class="untitled__slide">
+			<div class="untitled__slideBg"></div>
+			<div class="untitled__slideContent">
+				<span>London</span> 
+				<span>Scout</span>
+				<a class="button" href="https://unsplash.com/@scoutthecity" target="/black">Unsplash Profile</a>
+			</div>
+		</div>
+		<div class="untitled__slide">
+			<div class="untitled__slideBg"></div>
+			<div class="untitled__slideContent">
+				
+				<span>Vladimir</span> 
+				<span>Kudinov</span>
+				<a class="button" href="https://unsplash.com/@madbyte" target="/black">Unsplash Profile</a>
+			</div>
+		</div>
+		<div class="untitled__slide">
+			<div class="untitled__slideBg"></div>
+			<div class="untitled__slideContent">
+				<span>Macio</span> 
+				<span>Amorim</span>
+				<a class="button" href="https://unsplash.com/@maicoamorim" target="/black">Unsplash Profile</a>
+			</div>
+		</div>
+		<div class="untitled__slide">
+			<div class="untitled__slideBg"></div>
+			<div class="untitled__slideContent">
+				<span>Mario</span> 
+				<span>Calvo</span>
+				<a class="button" href="https://unsplash.com/@mariocalvo" target="/black">Unsplash Profile</a>
+			</div>
+		</div>
+	</div>
+	<div class="untitled__shutters"></div>
+</div>
 
-			<input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
-			<input type="radio" name="fancy" value="hearts" id="hearts" />
-			<input type="radio" name="fancy" value="spades" id="spades" />
-			<input type="radio" name="fancy" value="diamonds" id="diamonds" />			
-			<label for="clubs">&#9827; Clubs</label><label for="hearts">&#9829; Hearts</label><label for="spades">&#9824; Spades</label><label for="diamonds">&#9830; Diamonds</label>
-
-			<div class="keys">Use left and right keys to navigate</div>
-	</form>
 
 
 
     <div class="slider-wrapper anywhere-sliders-nivo-slider theme- no-captions"
          data-imagesCount="4"
          data-sliderHtmlElementId="WidgetSlider-home_page_main_slider-1"
-         data-imagesString="&lt;a href="/magalog">                    &lt;
+         data-imagesString="&lt;a href="/magalog">                   
 
             <div id="WidgetSlider-home_page_main_slider-1" class="nivoSlider">
                             <a href="/magalog">
@@ -1012,7 +999,7 @@ You have no items in your shopping cart.        </div>
 
 
 <script type="text/javascript">
-    var nop_store_directory_root = "/";
+    var nop_store_directory_root = "https://walkerfurniture.com/";
 </script>
 
 <div id="product-ribbon-info" data-productid="0"
