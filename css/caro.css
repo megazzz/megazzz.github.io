@@ -1,13 +1,13 @@
 html, body {
   width: 100vw;
-  height: 60vh;
+  height: 100vh;
   overflow: hidden;
 }
 
 .untitled {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 60%;
   -webkit-animation: rotateHue infinite 20s linear;
           animation: rotateHue infinite 20s linear;
   -webkit-animation-delay: 0.625s;

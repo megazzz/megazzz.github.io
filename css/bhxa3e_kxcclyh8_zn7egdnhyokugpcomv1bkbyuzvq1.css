@@ -492,21 +492,6 @@ label, label + * {
 .eu-cookie-bar-notification a:hover {
 	text-decoration: underline;
 }
-
-#goToTop {
-    display: none;
-    position: fixed;
-	right: 20px;
-    bottom: 20px;
-	z-index: 1030;
-    width: 55px;
-    height: 55px;
-    border: 2px solid #fff;
-    overflow: hidden;
-	background: #cc8a97 url(/Themes/Brooklyn/Content/img/goTop.png) no-repeat center 48%;
-    cursor: pointer;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
 }
 #goToTop:hover {
     opacity: 0.9;
