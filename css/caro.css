@@ -128,7 +128,7 @@ html, body {
   left: 50%;
   -webkit-transform: translate3d(-50%, 0, 0);
           transform: translate3d(-50%, 0, 0);
-  background-color: #000;
+  background-color: #fff;
   pointer-events: auto;
 }
 .untitled__shutters:before {
@@ -243,7 +243,7 @@ html, body {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #000;
+  background-color: #fff;
 }
 .untitled__slide {
   position: absolute;
@@ -323,7 +323,7 @@ html, body {
   left: 0;
   background-size: cover;
   background-position: center;
-  background-color: #000;
+  background-color: #fff;
   background-blend-mode: normal;
   opacity: 1;
   z-index: -1;
