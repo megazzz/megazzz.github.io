@@ -395,7 +395,7 @@ html, body {
   z-index: 2;
   opacity: 1;
   text-shadow: 0 0 0.5em rgba(179, 64, 26, 0.25);
-  mix-blend-mode: lighten;
+  mix-blend-mode: normal;
 }
 .untitled__slideContent span {
   display: block;
@@ -415,7 +415,7 @@ html, body {
           box-shadow: -0.5vmin 0.5vmin 0 rgba(255, 255, 255, 0.5);
   background: transparent;
   margin-top: 5vmin;
-  mix-blend-mode: lighten;
+  mix-blend-mode: normal;
   color: white;
   padding: 2vmin 2vmin 1.8vmin 2vmin;
   letter-spacing: 0.1em;
