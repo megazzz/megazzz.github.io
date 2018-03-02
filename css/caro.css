@@ -6,8 +6,8 @@ html, body {
 
 .untitled {
   position: absolute;
-  height: 100%;
-  width: 60%;
+  height: 60%;
+  width: 100%;
   -webkit-animation: rotateHue infinite 20s linear;
           animation: rotateHue infinite 20s linear;
   -webkit-animation-delay: 0.625s;
@@ -128,7 +128,7 @@ html, body {
   left: 50%;
   -webkit-transform: translate3d(-50%, 0, 0);
           transform: translate3d(-50%, 0, 0);
-  background-color: #b3401a;
+  background-color: #000;
   pointer-events: auto;
 }
 .untitled__shutters:before {
@@ -243,7 +243,7 @@ html, body {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #b3401a;
+  background-color: #000;
 }
 .untitled__slide {
   position: absolute;
@@ -323,7 +323,7 @@ html, body {
   left: 0;
   background-size: cover;
   background-position: center;
-  background-color: #b3401a;
+  background-color: #000;
   background-blend-mode: normal;
   opacity: 1;
   z-index: -1;
