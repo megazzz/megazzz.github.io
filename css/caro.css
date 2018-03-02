@@ -325,7 +325,7 @@ html, body {
   background-position: center;
   background-color: #b3401a;
   background-blend-mode: hard-light;
-  opacity: .00000000000000000000000000000000001;
+  opacity: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
   z-index: -1;
   -webkit-animation: bgInOut 5s infinite;
           animation: bgInOut 5s infinite;
