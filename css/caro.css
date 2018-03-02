@@ -6,8 +6,8 @@ html, body {
 
 .untitled {
   position: absolute;
-  height: 100%;
-  width: 60%;
+  height: 60%;
+  width: 100%;
   -webkit-animation: rotateHue infinite 20s linear;
           animation: rotateHue infinite 20s linear;
   -webkit-animation-delay: 0.625s;
@@ -239,7 +239,7 @@ html, body {
 }
 .untitled__slides {
   position: absolute;
-  height: 100%;
+  height: 60%;
   width: 100%;
   top: 0;
   left: 0;
@@ -247,7 +247,7 @@ html, body {
 }
 .untitled__slide {
   position: absolute;
-  height: 100%;
+  height: 60%;
   width: 100%;
   opacity: 0;
   -webkit-animation: showHideSlide infinite 20s steps(1);
