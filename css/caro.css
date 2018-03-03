@@ -52,7 +52,7 @@
 .slider__content {
   margin: auto;
   width: 65vw;
-  height: 40vw;
+  height: 50vw;
   max-height: 29vh;
   will-change: transform;
   -webkit-transform-style: preserve-3d;
