@@ -13,7 +13,7 @@
 
 .slider {
   width: 100vw;
-  height: 45vh;
+  height: 55vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +29,7 @@
   display: block;
   position: absolute;
   width: 100vw;
-  height: 70vh;
+  height: 65vh;
   background-position: center;
   background-size: cover;
   will-change: opacity;
@@ -52,7 +52,7 @@
 .slider__content {
   margin: auto;
   width: 65vw;
-  height: 32.5vw;
+  height: 40vw;
   max-height: 29vh;
   will-change: transform;
   -webkit-transform-style: preserve-3d;
