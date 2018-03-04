@@ -552,34 +552,10 @@ label, label + * {
 .header-links .cart-qty {
 	padding: 0 0 0 20px;
 }
-.store-search-box {
-    font-size: 0;
-}
-.store-search-box form {
-	display: inline-block;
-	position: relative;
-    border-bottom:1px solid #e7e7e7;
-}
-.search-box form:after {
-	content: "";
-	display: block;
-	clear: both;
-}
-.store-search-box input.search-box-text {
-	float: left;
-	width: 240px !important;
-	height: 36px;
-    border: none;
-    background-color:transparent;
-}
-.store-search-box .search-box-button {
-	float: left;
-	width: 36px;
-	height: 36px;
-	border: none;
-	background: url(/Themes/Brooklyn/Content/img/search-button-mobile.png) center no-repeat;
-	font-size: 0;
-}
+
+
+
+
 .ui-helper-hidden-accessible {
 	display: none;
 }
@@ -4012,54 +3988,13 @@ label, label + * {
 
 
 
-.search-input {
-    margin: 0 0 80px;
-}
-.search-page .form-fields {
-    border: 2px solid #eee;
-    padding: 30px 15px;
-}
-.search-input input + label {
-	display: inline;
-	margin: 0 0 0 5px !important;
-}
-.basic-search {
-	margin: 0 0 20px;
-}
-.advanced-search .price-range {
-	display: inline-block;
-}
-.advanced-search .price-range input {
-	width: 80px !important;
-	margin: 3px 5px;
-}
-.search-input .button-1 {
-    width: 390px;
-    max-width: 100%;
-    border: medium none;
-    padding: 14px 40px;
-	background-color: #cc8a97;
-    font-size: 14px;
-    font-weight: bold;
-    color: #ffffff;
-    text-transform: uppercase;
-    -webkit-transition: all 0.2s ease 0s;
-    transition: all 0.2s ease 0s;
-}
-.search-input .button-1:hover {
-    opacity: 0.9;
-}
-.search-input .warning,
-.search-results .result {
-	display: block;
-	margin: 10px 0 0; 
-	font-weight: normal;
-	color: #c00;
-}
-.search-results {
-	margin: 30px 0 0;
-    text-align: center;
-}
+
+
+
+
+
+
+
 
 .sitemap-page {
     margin: 0 0 120px;
@@ -4429,7 +4364,6 @@ label, label + * {
 .forum-page,
 .forum-topic-page,
 .forum-edit-page,
-.forum-search-page,
 .active-discussions-page,
 .move-topic-page,
 .profile-page,
@@ -4454,78 +4388,14 @@ label, label + * {
     margin: 0 0 30px;
     font-weight: bold;
 }
-.forum-search-box {
-    position: static !important;
-    float: none !important;
-    margin: 0 0 50px;
-    border: 2px solid #eee;
-    padding: 30px 20px 20px;
-}
-.forum-search-box form {
 
-}
-.forum-search-box .basic {
-    max-width:390px;
-	overflow: hidden;
-	margin: 0 auto 10px;
-}
-.forum-search-box .basic .search-box-text {
-    width: 390px;
-    max-width: 100%;
-    height: 38px;
-    border-width: 2px 2px 0;
-    text-align: center;
-    font-size: 14px;
-}
-.forum-search-box .basic .search-box-button {
-    width: 390px;
-    max-width: 100%;
-    border: none;
-    padding: 10px 40px;
-    background-color: #cc8a97;
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    -webkit-transition: all 0.2s ease 0s;
-    transition: all 0.2s ease 0s;
-}
-.forum-search-box .basic .search-box-button:hover {
-    opacity: 0.9;
-}
-.forum-search-box .advanced a {
-    padding-left: 20px;
-    background: url(/Themes/Brooklyn/Content/img/forum-search-button.png) no-repeat left center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 13px;
-    color: #cc8a97;
 
-}
-.forum-search-box-text {
-	float: left;
-	width: 220px !important;
-}
-.forum-search-box-button {
-	float: left;
-	width: 36px;
-	height: 36px;
-	border: none;
-	background: #ccc url(/Themes/Brooklyn/Content/img/search-button.png) center no-repeat;
-	font-size: 0;
-}
-.forum-search-page .advanced-search {
-	margin: 15px 0 0;
-}
-.forum-search-page .inputs.reversed > * {
-    margin: 0 3px;
-}
-.forum-search-page .search-error {
-    margin: 0 0 30px;
-	text-align: center;
-    font-size: 13px;
-	color: #de524e;
-}
+
+
+
+
+
+
 .forum-search-page .search-results {
 	margin: 0 0 15px;
 }
@@ -5486,10 +5356,6 @@ td.footable-last-column {
 .responsive-nav-wrapper .menu-title {
 	display: inline-block;
 	background: url(/Themes/Brooklyn/Content/img/menu-button.png) no-repeat center;
-}
-.responsive-nav-wrapper .search-wrap {
-	display: inline-block;
-	background: url(/Themes/Brooklyn/Content/img/search-button.png) no-repeat center;
 }
 .responsive-nav-wrapper .wishlist-opener {
     display: inline-block;
