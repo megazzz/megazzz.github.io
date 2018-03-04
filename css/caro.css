@@ -45,9 +45,9 @@
 }
 .slider__content {
   margin: auto;
-  width: 65vw;
-  height: 32.5vw;
-  max-height: 60vh;
+  width: 90vw;
+  height: 140vw;
+  max-height: 45vh;
   will-change: transform;
   transform-style: preserve-3d;
   pointer-events: none;
