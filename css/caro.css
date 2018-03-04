@@ -51,7 +51,7 @@
 }
 .slider__content {
   margin: auto;
-  width: 80vw;
+  width: 90vw;
   height: 140vw;
   max-height: 45vh;
   will-change: transform;
