@@ -214,7 +214,7 @@
   cursor: var(--arrow) 40 40, auto;
 }
 .slider__nav-dots {
-  margin-top: 88vh;
+  margin-top: 59vh;
   display: inline-flex;
   position: relative;
   padding: 1em;
