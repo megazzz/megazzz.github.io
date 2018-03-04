@@ -45,7 +45,7 @@
 }
 .slider__content {
   margin: auto;
-  width: 80vw;
+  width: 75vw;
   height: 140vw;
   max-height: 45vh;
   will-change: transform;
@@ -109,6 +109,7 @@
   padding: 0.5em;
   perspective: 1000px;
   transform-style: preserve-3d;
+  color: rgba(0,0,0,.8);
 }
 .slider__text-item > * {
   overflow: hidden;
@@ -127,7 +128,7 @@
   padding: 1em;
   color: rgba(0,0,0,.8);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 .slider__text-item h3::before, .slider__text-item p::before {
   content: '';
