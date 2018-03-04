@@ -120,12 +120,12 @@
   overflow: hidden;
 }
 .slider__text-item h3 {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(238, 41, 46, .7);
 }
 .slider__text-item p {
   font-family: 'Open Sans', sans-serif;
   padding: 1em;
-  color: white;
+  color: rgba(0,0,0,.8);
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
