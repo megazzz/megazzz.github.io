@@ -201,7 +201,7 @@
 }
 .slider__nav-arrow {
   height: 100vh;
-  width: 50vw;
+  width: 55vw;
   text-indent: -9999px;
   white-space: nowrap;
 }
@@ -256,7 +256,7 @@
   .slider__content {
     width: 100vw;
     height: 100vh;
-    max-height: 100vh;
+    max-height: 58.82vh;
   }
 
   .slider__text-item-info {
