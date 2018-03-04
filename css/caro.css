@@ -109,7 +109,7 @@
   padding: 0.5em;
   perspective: 1000px;
   transform-style: preserve-3d;
-  color: rgba(238, 41, 46, 0.9);
+  color: rgba(0,0,0,.8);
 }
 .slider__text-item > * {
   overflow: hidden;
@@ -126,7 +126,7 @@
 .slider__text-item p {
   font-family: 'Open Sans', sans-serif;
   padding: 1em;
-  color: rgba(0,0,0,.8);
+  color: rgba(238, 41, 46, 0.9);
   text-align: center;
   background-color: rgba(0, 0, 0, 0.85);
 }
