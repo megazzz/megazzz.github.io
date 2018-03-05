@@ -19,7 +19,7 @@ input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webki
 	font-size: 13px;
 	width: 130px;
 	display: inline-block;
-	color: #f4f2ca;
+	color: rgb(238,41,48,1);
 	text-align: center;
 	background-color: #d8492e;
 	padding: .9em;
