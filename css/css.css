@@ -1,4 +1,4 @@
-body {
+body {
 	background-color: rgb(238,41,46);
 	color: rgb(238,41,46);
 	text-align: right;
@@ -25,14 +25,14 @@ p a:hover {
 
 /* style input field text */
 ::-webkit-input-placeholder {
-   color: #f4f2ca;
+   color: rgb(238,41,46);
    opacity: .8;
 }
 
 /* Input field that looks like a button */
 .email-field {
 	width: ;
-	display: inline-block;
+	display: ;
 	color: #fff;
 	text-align: center;
 	background-color: #000;
@@ -48,7 +48,7 @@ p a:hover {
 	transition: all .1s linear;
 }
 .email-field:hover {
-	background-color: #d0432a;
+	background-color: rgb(238,41,46);
 }
 
 /* after button is clicked */
@@ -56,19 +56,19 @@ p a:hover {
 	width: 200px;
 	outline: none;
 	color: #efaa9d;
-	text-align: left;
+	text-align: right;
 	cursor: inherit;
 }
 
 /* Email submit button */
 #subscribe-button {
-	width: 35px;
-	height: 35px;
+	width: 400 px;
+	height: 400 px;
 	border: none;
-	text-indent: -9999px;
-  opacity: .25;
+	text-indent: ;
+  opacity: 1;
 	background: url(http://helixpowered.com/assets/img/arrow-circle-on-right.svg) no-repeat;
-	background-size: 13px;
+	background-size: 110000px;
 	background-position: 0 1px;
 	-webkit-transition: all .2s linear;
 	-moz-transition: all .2s linear;
