@@ -85,6 +85,15 @@
             <div class="header-options">
                 <div class="header-links-wrapper">
                     <div class="header-links">
+					<form action="/search/" method="get" id="searchform" class="navbar-form navbar-right form-inline" role="form">
+                <div class="form-group">
+                    <label class="sr-only" for="s">Search</label>
+                    <input type="text" placeholder="Browse" class="form-control" name="s" id="s">
+                    <input type="hidden" name="disable-prefetch" id="disable-prefetch" value="1" />
+                    <button id="searchsubmit" type="submit" class="btn btn-success glyphicon glyphicon-search"></button>
+                    <div class="clearfix visible-xs"></div>
+                </div>
+            </form>
 					
     <ul>
         
@@ -100,15 +109,6 @@
             <li><a href="login.html" class="ico-login">Log in</a></li>
                 
     </ul>
-	<form action="/search/" method="get" id="searchform" class="navbar-form navbar-right form-inline" role="form">
-                <div class="form-group">
-                    <label class="sr-only" for="s">Search</label>
-                    <input type="text" placeholder="Browse" class="form-control" name="s" id="s">
-                    <input type="hidden" name="disable-prefetch" id="disable-prefetch" value="1" />
-                    <button id="searchsubmit" type="submit" class="btn btn-success glyphicon glyphicon-search"></button>
-                    <div class="clearfix visible-xs"></div>
-                </div>
-            </form>
             <script type="text/javascript">
             $(document).ready(function () {
                 $('.header').on('mouseenter', '#topcartlink', function () {
