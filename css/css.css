@@ -35,7 +35,7 @@ p a:hover {
 	display: inline-block;
 	color: #888;
 	text-align: center;
-	background-color: rgba(238,41,46,.6);
+	background-color: #fff;
 	padding: .9em 1.8em;
 	border: none;
 	cursor: pointer;
