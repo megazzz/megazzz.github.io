@@ -31,11 +31,11 @@ p a:hover {
 
 /* Input field that looks like a button */
 .email-field {
-	width: 80px;
+	width: ;
 	display: inline-block;
-	color: #f4f2ca;
+	color: #888;
 	text-align: center;
-	background-color: #d8492e;
+	background-color: rgba(238,41,46,.6);
 	padding: .9em 1.8em;
 	border: none;
 	cursor: pointer;
