@@ -122,6 +122,16 @@
 					
 	
     <ul>
+	<script type="text/javascript"> $('.search-button').click(function(){
+  $(this).parent().toggleClass('open');
+});
+</script>
+	<div class="search">
+  <input type="search" class="search-box" />
+  <span class="search-button">
+    <span class="search-icon"></span>
+  </span>
+</div>
         
 
 
@@ -164,16 +174,6 @@
             </div>
         </div>
     </div>
-	<script> $('.search-button').click(function(){
-  $(this).parent().toggleClass('open');
-});
-</script>
-	<div class="search">
-  <input type="search" class="search-box" />
-  <span class="search-button">
-    <span class="search-icon"></span>
-  </span>
-</div>
     <div class="header-lower">
         <div class="header-actions-wrapper">
 
