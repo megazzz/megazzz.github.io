@@ -16,7 +16,7 @@
     <link type="text/css" rel="stylesheet" href="/css/css.css" />
 	<link href="/css/bhxa3e_kxcclyh8_zn7egdnhyokugpcomv1bkbyuzvq1.css" rel="stylesheet"/>
     <link href="/css/caro.css" rel="stylesheet"/>
-	
+	<link href="/css/search.css" rel="stylesheet"/>
     
 <link rel="shortcut icon" href="/images/favicon.ico" />
     
@@ -164,6 +164,16 @@
             </div>
         </div>
     </div>
+	<script> $('.search-button').click(function(){
+  $(this).parent().toggleClass('open');
+});
+</script>
+	<div class="search">
+  <input type="search" class="search-box" />
+  <span class="search-button">
+    <span class="search-icon"></span>
+  </span>
+</div>
     <div class="header-lower">
         <div class="header-actions-wrapper">
 
