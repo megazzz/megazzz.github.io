@@ -36,13 +36,13 @@ p a:hover {
 	color: #fff;
 	text-align: center;
 	background-color: #000;
-	padding: .9em 1.8em;
+	padding: 1.1em 5em;
 	border: none;
 	cursor: pointer;
 	outline: none;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-	border-radius: 4px;
+	border-radius: 600px;
 	-webkit-transition: all .1s linear;
 	-moz-transition: all .1s linear;
 	transition: all .1s linear;
