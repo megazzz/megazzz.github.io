@@ -464,38 +464,6 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
-        $(function() {
-  $('a[href="#search"]').on("click", function(event) {
-    event.preventDefault();
-    $("#search").addClass("open");
-    $('#search > form > input[type="search"]').focus();
-  });
-
-  $("#search, #search button.close").on("click keyup", function(event) {
-    if (
-      event.target == this ||
-      event.target.className == "close" ||
-      event.keyCode == 27
-    ) {
-      $(this).removeClass("open");
-    }
-  });
-
-  $("form").submit(function(event) {
-    event.preventDefault();
-    return false;
-  });
-});
-
-    </script>
-<div id="search">
-  <button type="button" class="close">×</button>
-  <form>
-    <input type="search" value="" placeholder="SEARCH KEYWORD(s)" />
-    <button type="submit" class="btn btn-primary">Search</button>
-  </form>
-</div>
 
 
 
