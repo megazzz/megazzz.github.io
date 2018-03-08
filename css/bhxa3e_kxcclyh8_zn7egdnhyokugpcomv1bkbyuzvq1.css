@@ -9902,7 +9902,7 @@ INPUT.qq-edit-filename.qq-editing~.qq-upload-cancel {
 /*plugins*/
 
 .ajaxCart .productAddedToCartWindowCheckout, .previous-product a:hover .previous-product-label, .next-product a:hover .next-product-label, .sale-of-the-day-offer .go-to-product-page, .blog-search-box .search-box-button, .post-navigation a:hover::before, .nop-jcarousel .jcarousel-prev-vertical, .nop-jcarousel .jcarousel-next-vertical, .products-carousel .item-info .rating div, .ajaxFilters .k-window-titlebar, .ropc .complete-button button, .header-menu>ul>li>span:after {
-	background-color: rgb(0,0,0,1);
+	background-color: rgb(0, 0, 0, 1);
 }
 /* set same border color as bg */
 
