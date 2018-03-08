@@ -35,7 +35,6 @@ input {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
-  font-family: Roboto;
   outline: 0;
   -webkit-transition: width 0.4s ease-in-out, border-radius 0.8s ease-in-out, padding 0.2s;
   transition: width 0.4s ease-in-out, border-radius 0.8s ease-in-out, padding 0.2s;
@@ -126,7 +125,6 @@ input {
   border-radius: 0;
   background: none;
   color: #fff;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   outline: 0;
