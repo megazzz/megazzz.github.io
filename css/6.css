@@ -1,11 +1,11 @@
-#myFooter {
-    background-color: #10222e;
+#myFooter {
+    background-color: #000;
     color: white;
-    padding-top: 20px;
+    padding-top: 1px;
 }
 
 #map-container {
-    height: 240px;
+    height: 300px;
     width:  100%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -16,7 +16,7 @@
 }
 
 #myFooter .footer-copyright {
-    background-color: #10222e;
+    background-color: rgba(238,41,46,.5);
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -28,7 +28,7 @@
 }
 
 #myFooter .container {
-    width: auto;
+    width: ;
 }
 
 #myFooter ul {
