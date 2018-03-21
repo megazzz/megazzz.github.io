@@ -1,29 +1,29 @@
 #myFooter {
     background-color: #000;
     color: white;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 #map-container {
-    height: 240px;
+    height: 24px;
     width:  100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 #myFooter .row {
-    margin:  55px;
+    margin:  35px;
 }
 
 #myFooter .footer-copyright {
     background-color: rgba(238,41,46,.5);
-    padding-top: 3px;
+    padding-top: 4px;
     padding-bottom: 3px;
     text-align: center;
 }
 
 #myFooter .footer-copyright p {
-    margin: 10px;
+    margin: -px;
     color: #ccc;
 }
 
@@ -50,29 +50,6 @@
 }
 
 
-#myFooter .fa-facebook:hover {
-    color: #2b55ff;
-}
-
-#myFooter .fa-facebook:focus {
-    color: #2b55ff;
-}
-
-#myFooter .fa-google-plus:hover {
-    color: red;
-}
-
-#myFooter .fa-google-plus:focus {
-    color: red;
-}
-
-#myFooter .fa-twitter:hover {
-    color: #00aced;
-}
-
-#myFooter .fa-twitter:focus {
-    color: #00aced;
-}
 
 @media screen and (max-width: 767px) {
     #myFooter {
@@ -88,24 +65,4 @@
 /* CSS used for positioning the footers at the bottom of the page. */
 /* You can remove this. */
 
-    height: 100%;
-body{
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    height: 100%;
-}
-
-.content{
-   flex: 1 0 auto;
-   -webkit-flex: 1 0 auto;
-   min-height: 200px;
-}
-
-#myFooter{
-   flex: 0 0 auto;
-   -webkit-flex: 0 0 auto;
-}
-}
 
