@@ -50,7 +50,7 @@ p a:hover {
 .email-field.active {
 	width: 350px;
 	outline: none;
-	color: #fff;
+	color: #000;
 	text-align: left;
 	cursor: inherit;
 }
