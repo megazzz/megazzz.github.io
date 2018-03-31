@@ -2,7 +2,7 @@
 
 - var text = {Forest: '“And into the forest I go, to lose my mind and find my soul”', Lake: '“Mist to mist, drops to drops. For water thou art, and unto water shalt thou return”', Cliffs: '“Go to the edge of the cliff and jump off. Build your wings on the way down”', Mountains: '“What are men to rocks and mountains?”', Peaks: '“On all the peaks lies peace”'};
 
-#slider.slider(style="--img-prev:url(" + images[0] + ");")  
+#slider.slider(style="--img-prev:url(" + images[0] + ");")
   #slider-content.slider__content
     .slider__images
       each val, i in images
@@ -11,11 +11,11 @@
           - imgClassName += ' slider__images-item--active';
         div(class=imgClassName data-id=i+1)
           img(src=val)
-        
+
     .slider__text
       - var i = 0;
       each val, key in text
-        
+
         - var textClassName = 'slider__text-item';
         if ++i === 1
           - textClassName += ' slider__text-item--active';
@@ -24,18 +24,17 @@
             h3= key
           .slider__text-item-info
             p= val
-        
+
   .slider__nav
     .slider__nav-arrows
       #left.slider__nav-arrow.slider__nav-arrow--left to left
       #right.slider__nav-arrow.slider__nav-arrow--right to right
     #slider-dots.slider__nav-dots
-      
+
       - var i = 0;
       while i++ < images.length
         - var dotsClassName = 'slider__nav-dot';
         if i === 1
           - dotsClassName += ' slider__nav-dot--active';
-      
+
         div(class=dotsClassName data-id=i)
-    
