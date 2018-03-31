@@ -28,7 +28,7 @@ p a:hover {
 .email-field {
 	width: 300px;
 	display: inline-block;
-	color: #fff;
+	color: #000;
 	text-align: center;
 	background-color: rgba(0,0,0,0.1);
 	padding: 1.2em 2em;
