@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p a {
-  color: rgb(238, 41, 46);
+  color: #01468e;
 	text-decoration: none;
 	border-bottom: 1px solid rgba(255,255,255, .2);
 	padding: .2em 0;
@@ -14,13 +14,13 @@ p a {
 	transition: all .2s linear;
 }
 p a:hover {
-	color: rgb(238, 41, 46);
+	color: rgba(0,0,0,0.1);
 	opacity: .6;
 }
 
 /* style input field text */
 ::-webkit-input-placeholder {
-   color: rgb(238, 41, 46);
+   color: rgba(0,0,0,0.1);
    opacity: .8;
 }
 
@@ -30,7 +30,7 @@ p a:hover {
 	display: inline-block;
 	color: #fff;
 	text-align: center;
-	background-color: #000;
+	background-color: rgba(0,0,0,0.1);
 	padding: 1.2em 2em;
 	border: none;
 	cursor: pointer;
@@ -43,7 +43,7 @@ p a:hover {
 	transition: all .1s linear;
 }
 .email-field:hover {
-	background-color: rgb(238, 41, 46);
+	background-color: rgba(0,0,0,0.1);
 }
 
 /* after button is clicked */
@@ -68,7 +68,7 @@ p a:hover {
 	-webkit-transition: all .2s linear;
 	-moz-transition: all .2s linear;
 	transition: all .2s linear;
-  
+
 	cursor: pointer; /* for demo only */
 
 	display: none;
@@ -84,8 +84,8 @@ p a:hover {
 
 /* vertically position everything for effect */
 @media screen and (min-width: 480px) {
-	
-	
-  
+
+
+
 
 }
