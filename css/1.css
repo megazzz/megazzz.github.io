@@ -6,7 +6,10 @@
  */
 
 /*********** CSS RESET **********/
-
+ico-login {
+ color: #000;
+}
+}
 * {
 	margin: 0;
 	outline: none;
@@ -4923,8 +4926,8 @@ td.footable-last-column {
 	color: #cc8a97 !important;
 }
 /*@media all and (max-width: 809px) {
-    .order-summary-content .cart .item-count, 
-    .section.products .data-table .item-count, 
+    .order-summary-content .cart .item-count,
+    .section.products .data-table .item-count,
     .section.shipments .data-table .item-count {
         display: none;
     }
@@ -5264,7 +5267,7 @@ td.footable-last-column {
 	}
 }
 /*=====================================================
-    
+
     TABLETS PORTRAIT & SMARTPHONES LANDSCAPE
 
 =====================================================*/
@@ -5444,7 +5447,7 @@ td.footable-last-column {
 	}
 }
 /*=====================================================
-    
+
     TABLETS LANDSCAPE & NETBOOKS
 
 =====================================================*/
@@ -6038,7 +6041,7 @@ td.footable-last-column {
 	}
 }
 /*=====================================================
-    
+
     DESKTOP
 
 =====================================================*/
@@ -7383,7 +7386,7 @@ td.footable-last-column {
 	overflow: hidden;
 }
 /*=====================================================
-    
+
     BIG SCREENS
 
 =====================================================*/
