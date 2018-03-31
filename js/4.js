@@ -81,7 +81,7 @@ locations.on("layeradd", function(e) {
   var marker = e.layer;
   marker.setIcon(
     L.icon({
-      iconUrl: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/6362/marker.png", // load your own custom marker image here
+      iconUrl: "/images/logo.png", // load your own custom marker image here
       iconSize: [56, 56],
       iconAnchor: [28, 28],
       popupAnchor: [0, -34]
