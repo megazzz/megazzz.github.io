@@ -689,6 +689,150 @@
               <div class='sidebar'>
       <div class='heading'>
 
+				<script>
+
+			             var nopreference = 'True';
+			             var viewmodel = new NavigationViewModel(nopreference);
+			             ko.applyBindings(viewmodel, $('#navigation')[0]);
+			             viewmodel.loadPromo();
+			             viewmodel.loadLocation();
+			             viewmodel.sbModel.getCart();
+			             </script>
+
+
+
+
+			             <!-- container -->
+			             <div id="main">
+
+
+
+
+			 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+
+
+
+			 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG8OtrV8WTsJjQ_du4dehYQ6F4fzoZx1Q&callback=initMap"
+			         type="text/javascript"></script>
+
+			 <div id="store-finder" class="sf-margin">
+			     <div id="from-desktop">
+			         <div id="maps">
+			         </div>
+			         <div class="map-stores">
+
+			             <div class="stores-search-header">
+			                 <label class="hd-search">Find a store nearby </label>
+			                 <input type="text" placeholder="your location" data-bind="value: newlocation" />
+			                 <a href class="fb-blue" data-bind="click: searchNearByStores">Find</a>
+			             </div>
+			             <div class="refine-search">
+			                 <label class="fl">Max distance  <span>(miles)</span></label>
+
+
+			                 <div class="dist">
+			                     <input type="radio" value="10" data-bind="checked: radioSelectedOptionValue" />
+			                     <span class="cl">10</span>
+			                 </div>
+			                 <div class="dist mg">
+			                     <input type="radio" value="30" data-bind="checked: radioSelectedOptionValue" />
+			                     <span class="cl">30</span>
+			                 </div>
+			                 <div class="dist">
+			                     <input type="radio" value="70" data-bind="checked: radioSelectedOptionValue" />
+			                     <span class="cl">70</span>
+			                 </div>
+
+			                 <div class="dist">
+			                     <input type="radio" value="all" data-bind="checked: radioSelectedOptionValue" />
+			                     <span class="cl">All Stores</span>
+			                 </div>
+			             </div>
+
+			             <div class="store-list">
+
+			                 <ul data-bind="foreach: stores">
+			                     <li data-bind="click: $root.showMarker">
+			                         <div class="top">
+			                             <span class="fl bd mw100" data-bind="text: Name"></span>
+			                             <span class="fr">mi</span>    <span class="fr bd" data-bind="numericText: Miles, precision: 2"></span>
+			                         </div>
+			                         <div class="bottom">
+			                             <span class="tl" data-bind="addressText: Address"></span>
+
+			                  <span class="tl w-full phone" data-bind="phoneText: Address"></span>
+			                         </div>
+			                     </li>
+			                 </ul>
+			             </div>
+			         </div>
+			     </div>
+
+			     <div id="upto-mobile">
+			         <div class="mobile-map-stores">
+
+			             <div class="mobile-stores-search-header">
+			                 <label class="hd-search">Find a store nearby </label>
+			                 <input type="text" placeholder="your location" data-bind="value: newlocation" />
+			                 <a href class="fb-blue" data-bind="click: searchNearByStores">Find</a>
+			             </div>
+			             <div class="refine-search">
+			                 <label class="fl">Max distance  <span>(miles)</span></label>
+
+
+			                 <div class="dist">
+			                     <input type="radio" value="10" data-bind="checked: radioSelectedOptionValue" />
+			                     <span class="cl">10</span>
+			                 </div>
+			                 <div class="dist mg">
+			                     <input type="radio" value="30" data-bind="checked: radioSelectedOptionValue" />
+			                     <span class="cl">30</span>
+			                 </div>
+			                 <div class="dist">
+			                     <input type="radio" value="70" data-bind="checked: radioSelectedOptionValue" />
+			                     <span class="cl">70</span>
+			                 </div>
+
+			                 <div class="dist">
+			                     <input type="radio" value="all" data-bind="checked: radioSelectedOptionValue" />
+			                     <span class="cl">All Stores</span>
+			                 </div>
+			             </div>
+
+			             <div class="mobile-store-list">
+
+			                 <ul data-bind="foreach: stores">
+			                     <li data-bind="click: $root.showDirections">
+			                         <div class="top">
+			                             <span class="fl bd mw100" data-bind="text: Name"></span>
+			                             <span class="fr">mi</span>    <span class="fr bd" data-bind="numericText: Miles, precision: 2"></span>
+			                         </div>
+			                         <div class="bottom">
+			                                <span class="tl" data-bind="addressText: Address"></span>
+
+			                  <span class="tl w-full phone" data-bind="phoneText: Address"></span>
+			                         </div>
+			                         <div class="actions">
+			                             <a class="fb-blue mobile-direction" data-bind="click: $root.showDirections"> Get Directions</a>
+			                         </div>
+			                     </li>
+			                 </ul>
+			             </div>
+			         </div>
+			     </div>
+			 </div>
+
+			 <script src="https://megafurnitureusa.com/bundles/stores?v=r6jUiTMZg_XK22Fb9meYxFk05CdypF1dXkizUtxJkNY1"></script>
+
+
+			 <script>
+
+			     var address = '';
+			     var viewmodel = new StoresViewModel(address);
+			     ko.applyBindings(viewmodel, $('#store-finder')[0]);
+			     viewmodel.searchStores();
+			 </script>
+			 <script src="/Scripts/ko.bindingHandler.numericText.js"></script>
 
 
 
@@ -699,7 +843,37 @@
 
 
 
-				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			<footer id="myFooter">
         <div class="container">
             <div class="row">
