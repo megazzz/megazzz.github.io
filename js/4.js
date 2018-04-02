@@ -1,6 +1,6 @@
 // update your access token here
 // L.mapbox.accessToken = '';
-L.mapbox.accessToken = 'pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2ltNnNxZWlkMDA2YXU0bHh1YTFneHl5aiJ9.I7VkcC6cW1tORuUcm3ii1A'
+L.mapbox.accessToken = 'pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2ltNnNxZWlkMDA2YXU0bHh1YTFneHl5aiJ9.I7VkcC6cW1tORuUcm3ii1A' 
 
 var map = L.mapbox
 .map("map", "mapbox.light") // update with your own map id
